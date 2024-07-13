@@ -8,7 +8,7 @@
   },
   "scripts": {
     "build": "tsup src",
-    "start": "node dist/server.js",
+    "start": "node ../dist/server.js",
     "dev": "nodemon src/server.ts"
   },
   "keywords": [],
