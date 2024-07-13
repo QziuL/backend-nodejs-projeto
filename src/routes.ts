@@ -14,7 +14,7 @@ router.get("/hello", async (req: Request, res: Response) => {
 });
 
 // PRODUTO
-router.get("/produtos", async (req: Request, res: Response) => {
+router.get("/produto", async (req: Request, res: Response) => {
   return new ListProdutosController().handle(res);
 });
 
